@@ -11,9 +11,8 @@ function Counter(props) {
     }
     return (
         <div>
-            <h1>
-                {counter}
-            </h1>
+            <h1>Counter</h1>
+            <h1>{counter}</h1>
             <button className='btn btn-primary mx-2' onClick={increaseCounter}><AiFillPlusCircle /></button>
             <button className='btn btn-danger mx-2' onClick={decreaseCounter}><AiFillMinusCircle /></button>
 
