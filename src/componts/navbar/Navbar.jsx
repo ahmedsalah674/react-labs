@@ -14,6 +14,9 @@ function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href='/todo'>TODO</a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href='/form'>Form</a>
+                        </li>
                     </ul>
                 </div>
             </div>
